@@ -43,6 +43,7 @@ jobs:
         run: |
           Remove-Item scripts/downloadFilesFromRepo.json
           Remove-Item .github/workflows/Sync_Download.yml
+          Remove-Item .github/FUNDING.yml
 
       - name: git-push
         uses: gendloop/git-push@v1.0.0
